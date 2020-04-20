@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2020年01月09日 星期四 15时25分00秒 by Eclipse SUMO GUI Version v1_4_0+0055-11695c0903
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="cfg/twoWay6lanes.net.xml"/>
+        <route-files value="cfg/twoWay6lanes.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="my_output_file.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.01"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="50567"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="cfg/twoWay6lanes.gui.xml"/>
+        <start value="true"/>
+        <tracker-interval value="0.01"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>
