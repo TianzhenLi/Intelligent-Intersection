@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2020年01月13日 星期一 18时39分39秒 by Eclipse SUMO GUI Version v1_4_0+0055-11695c0903
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="intelligent_traffic.net.xml"/>
+        <route-files value="intelligent_traffic.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="intelligent_lights_output_file.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="15000"/>
+        <step-length value="0.01"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="55697"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="intelligent_traffic.gui.xml"/>
+        <start value="true"/>
+        <tracker-interval value="0.01"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="181.35" id="TLSjunction_0_InductLoopOn_end1_junction_0" nVehContrib="6" flow="119.11" occupancy="0.80" speed="16.60" harmonicMeanSpeed="16.60" length="4.00" nVehEntered="6"/>
+    <interval begin="0.00" end="181.35" id="TLSjunction_0_InductLoopOn_end1_junction_1" nVehContrib="7" flow="138.96" occupancy="3.49" speed="11.73" harmonicMeanSpeed="4.42" length="4.00" nVehEntered="7"/>
+    <interval begin="0.00" end="181.35" id="TLSjunction_0_InductLoopOn_end1_junction_2" nVehContrib="7" flow="138.96" occupancy="3.59" speed="10.80" harmonicMeanSpeed="4.30" length="4.00" nVehEntered="7"/>
+    <interval begin="0.00" end="181.35" id="TLSjunction_0_InductLoopOn_end2_junction_0" nVehContrib="7" flow="138.96" occupancy="0.93" speed="16.60" harmonicMeanSpeed="16.60" length="4.00" nVehEntered="7"/>
+    <interval begin="0.00" end="181.35" id="TLSjunction_0_InductLoopOn_end2_junction_1" nVehContrib="4" flow="79.40" occupancy="1.84" speed="12.83" harmonicMeanSpeed="4.78" length="4.00" nVehEntered="4"/>
+    <interval begin="0.00" end="181.35" id="TLSjunction_0_InductLoopOn_end2_junction_2" nVehContrib="9" flow="178.66" occupancy="3.27" speed="11.09" harmonicMeanSpeed="6.08" length="4.00" nVehEntered="9"/>
+    <interval begin="0.00" end="181.35" id="TLSjunction_0_InductLoopOn_end3_junction_0" nVehContrib="8" flow="158.81" occupancy="1.06" speed="16.60" harmonicMeanSpeed="16.60" length="4.00" nVehEntered="8"/>
+    <interval begin="0.00" end="181.35" id="TLSjunction_0_InductLoopOn_end3_junction_1" nVehContrib="4" flow="79.40" occupancy="0.55" speed="16.01" harmonicMeanSpeed="15.94" length="4.00" nVehEntered="4"/>
+    <interval begin="0.00" end="181.35" id="TLSjunction_0_InductLoopOn_end3_junction_2" nVehContrib="6" flow="119.11" occupancy="3.54" speed="10.28" harmonicMeanSpeed="3.74" length="4.00" nVehEntered="6"/>
+    <interval begin="0.00" end="181.35" id="TLSjunction_0_InductLoopOn_end4_junction_0" nVehContrib="7" flow="138.96" occupancy="0.93" speed="16.60" harmonicMeanSpeed="16.60" length="4.00" nVehEntered="7"/>
+    <interval begin="0.00" end="181.35" id="TLSjunction_0_InductLoopOn_end4_junction_1" nVehContrib="5" flow="99.26" occupancy="3.45" speed="13.57" harmonicMeanSpeed="5.58" length="4.00" nVehEntered="6"/>
+    <interval begin="0.00" end="181.35" id="TLSjunction_0_InductLoopOn_end4_junction_2" nVehContrib="5" flow="99.26" occupancy="1.98" speed="13.59" harmonicMeanSpeed="5.58" length="4.00" nVehEntered="5"/>
+</detector>

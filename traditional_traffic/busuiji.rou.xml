@@ -1,0 +1,52 @@
+<routes>
+
+    <vType id="CarA" length="4" maxSpeed="39" accel="2.6"/>
+
+    <flow id="a11" color="1,1,0" begin="0" end="3600" number="100" type="CarA" departLane="random" departSpeed="max">
+     <route edges="end1_junction junction_end4"/>
+    </flow>
+
+    <flow id="a12" color="1,1,0" begin="0" end="3600" number="100" type="CarA" departLane="random" departSpeed="max">
+     <route edges="end1_junction junction_end3"/>
+    </flow>
+
+    <flow id="a13" color="1,1,0" begin="0" end="3600" number="100" type="CarA" departLane="random" departSpeed="max">
+     <route edges="end1_junction junction_end2"/>
+    </flow>
+
+    <flow id="b11" color="1,1,0" begin="0" end="3600" number="100" type="CarA" departLane="random" departSpeed="max">
+     <route edges="end2_junction junction_end1"/>
+    </flow>
+
+    <flow id="b12" color="1,1,0" begin="0" end="3600" number="100" type="CarA" departLane="random" departSpeed="max">
+     <route edges="end2_junction junction_end4"/>
+    </flow>
+
+    <flow id="b13" color="1,1,0" begin="0" end="3600" number="100" type="CarA" departLane="random" departSpeed="max">
+     <route edges="end2_junction junction_end3"/>
+    </flow>
+
+    <flow id="c11" color="1,1,0" begin="0" end="3600" number="100" type="CarA" departLane="random" departSpeed="max">
+     <route edges="end3_junction junction_end2"/>
+    </flow>
+
+    <flow id="c12" color="1,1,0" begin="0" end="3600" number="100" type="CarA" departLane="random" departSpeed="max">
+     <route edges="end3_junction junction_end1"/>
+    </flow>
+
+    <flow id="c13" color="1,1,0" begin="0" end="3600" number="100" type="CarA" departLane="random" departSpeed="max">
+     <route edges="end3_junction junction_end4"/>
+    </flow>
+
+    <flow id="d11" color="1,1,0" begin="0" end="3600" number="100" type="CarA" departLane="random" departSpeed="max">
+     <route edges="end4_junction junction_end3"/>
+    </flow>
+
+    <flow id="d12" color="1,1,0" begin="0" end="3600" number="100" type="CarA" departLane="random" departSpeed="max">
+     <route edges="end4_junction junction_end2"/>
+    </flow>
+
+    <flow id="d13" color="1,1,0" begin="0" end="3600" number="100" type="CarA" departLane="random" departSpeed="max">
+     <route edges="end4_junction junction_end1"/>
+    </flow>
+</routes>
