@@ -9,3 +9,39 @@ Vehicles are generated every 6 seconds with probability of 0.3 at the starting p
 ![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation1/intelligent%20light.gif "intelligent-light")
 
 ![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation1/intelligent%20intersection.gif "intelligent-intersection")
+
+## Simulation 2: Unbalanced traffic density
+We set the number of vehicles coming from the north-south road much greater than that from the east-west road. In the simulation, a vehicle is generated for every 6 seconds with probability of 0.3 in the north-south direction, while with probability of 0.03 in east-west direction.
+
+![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation2/traditional%20light.gif "traditional-light")
+
+![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation2/intelligent%20light.gif "intelligent-light")
+
+![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation2/intelligent%20intersection.gif "intelligent-intersection")
+
+## Simulation 3: The influence of traffic density
+In this part, we examine the influence of traffic density on the three IM strategies. The time intervals for generating a
+vehicle are chosen as 3 seconds, 6 seconds, 9 seconds, and 12 seconds, all with probability of 0.3.
+
+### 3 seconds
+![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/3s/traditional%20light.gif "traditional-light") 
+
+![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/3s/intelligent%20light.gif "intelligent-light")
+
+![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/3s/intelligent%20intersection.gif "intelligent-intersection")
+
+### 9 seconds
+
+![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/9s/traditional%20light.gif "traditional-light") 
+
+![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/9s/intelligent%20light.gif "intelligent-light")
+
+![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/9s/intelligent%20intersection.gif "intelligent-intersection")
+
+### 12 seconds
+
+![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/12s/traditional%20light.gif "traditional-light") 
+
+![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/12s/intelligent%20light.gif "intelligent-light")
+
+![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/12s/intelligent%20intersection.gif "intelligent-intersection")
