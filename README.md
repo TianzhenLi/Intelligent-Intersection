@@ -4,19 +4,25 @@ The SUMO is used to simulate the traditional traffic lights, adaptive traffic li
 ## Simulation 1: Same traffic density on each lane
 Vehicles are generated every 6 seconds with probability of 0.3 at the starting point of each lane. 
 
+### Traditional phase-fixed light
+![traditional_1](https://user-images.githubusercontent.com/51109877/79990231-611db180-84e3-11ea-9e1d-01dcb54a83aa.gif)
 
+### Adaptive traffic light
+![adaptive_1](https://user-images.githubusercontent.com/51109877/79991313-c0c88c80-84e4-11ea-9ba9-50ebcff4f76f.gif)
+
+### The proposed V2I strategy
+![v2i_1](https://user-images.githubusercontent.com/51109877/79983136-eac88180-84d9-11ea-977d-1c4306533049.gif)
 
 ## Simulation 2: Unbalanced traffic density
-We set the number of vehicles coming from the north-south road much greater than that from the east-west road. In the simulation, a vehicle is generated for every 6 seconds with probability of 0.3 in the north-south direction, while with probability of 0.03 in east-west direction.# Intelligent-Intersection
-The SUMO simulation platform is used to realize the traditional traffic lights, intelligent traffic lights and intelligent traffic intersections.
+We set the number of vehicles coming from the north-south road much greater than that from the east-west road. In the simulation, a vehicle is generated for every 6 seconds with probability of 0.3 in the north-south direction, while with probability of 0.03 in east-west direction.
 
-![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation2/traditional-light.gif "traditional-light")
+### Traditional phase-fixed light
 
-<img src="https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation1/intelligent-intersection.gif" width="40" height="40" />
 
-![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation2/intelligent-light.gif "intelligent-light")
+### Adaptive traffic light
+![adaptive_2](https://user-images.githubusercontent.com/51109877/79993426-56651b80-84e7-11ea-9d15-152bb21ed417.gif)
 
-![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation2/intelligent-intersection.gif "intelligent-intersection")
+
 
 ## Simulation 3: The influence of traffic density
 In this part, we examine the influence of traffic density on the three IM strategies. The time intervals for generating a
