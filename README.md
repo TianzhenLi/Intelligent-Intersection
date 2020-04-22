@@ -4,11 +4,11 @@ The SUMO is used to simulate the traditional traffic lights, adaptive traffic li
 ## Simulation 1: Same traffic density on each lane
 Vehicles are generated every 6 seconds with probability of 0.3 at the starting point of each lane. 
 
-![Traditional](http://m.qpic.cn/psc?/V110KZRI0NUk92/k5SIQjS5nGpe.wAIoURSstkRLEN.8O16eEJO03xvwaJbPhxDgBcof2oSmDFL7amtFZGcVrnMjspwbve7gO5umw!!/mnull&bo=WAJWAQAAAAACBy4!&rf=photolist&t=5 "traditional-light")
+![Traditional](https://j.gifs.com/oVlnz3.gif)
 
 ![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation1/intelligent-light.gif "intelligent-light")
 
-![image](http://m.qpic.cn/psc?/V110KZRI0NUk92/k5SIQjS5nGpe.wAIoURSspcwKcN7pvOV3vqR.Y.Y3De7bYyrgO5dmb4CKFBWjTDqLFZoiEnjzA.7iZpWJfDcZA!!/mnull&bo=WAJWAQAAAAACBy4!&rf=photolist&t=5 "intelligent-intersection")
+![](https://j.gifs.com/oVlnz3.gif)
 
 ## Simulation 2: Unbalanced traffic density
 We set the number of vehicles coming from the north-south road much greater than that from the east-west road. In the simulation, a vehicle is generated for every 6 seconds with probability of 0.3 in the north-south direction, while with probability of 0.03 in east-west direction.# Intelligent-Intersection
