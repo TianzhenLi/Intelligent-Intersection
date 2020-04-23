@@ -5,23 +5,29 @@ The SUMO is used to simulate the traditional traffic lights, adaptive traffic li
 Vehicles are generated every 6 seconds with probability of 0.3 at the starting point of each lane. 
 
 ### Traditional phase-fixed light
-![traditional_1](https://user-images.githubusercontent.com/51109877/79990231-611db180-84e3-11ea-9e1d-01dcb54a83aa.gif)
+![traditional_1](https://user-images.githubusercontent.com/51109877/80047354-cb643f80-853f-11ea-9437-4f00d159d119.gif)
+
 
 ### Adaptive traffic light
-![adaptive_1](https://user-images.githubusercontent.com/51109877/79991313-c0c88c80-84e4-11ea-9ba9-50ebcff4f76f.gif)
+![adaptive_1](https://user-images.githubusercontent.com/51109877/80047366-d028f380-853f-11ea-8905-523031f1cf26.gif)
+
 
 ### The proposed V2I strategy
-![v2i_1](https://user-images.githubusercontent.com/51109877/79983136-eac88180-84d9-11ea-977d-1c4306533049.gif)
+![v2i_1](https://user-images.githubusercontent.com/51109877/80047372-d4551100-853f-11ea-9a78-f535a3bc03ee.gif)
+
 
 ## Simulation 2: Unbalanced traffic density
 We set the number of vehicles coming from the north-south road much greater than that from the east-west road. In the simulation, a vehicle is generated for every 6 seconds with probability of 0.3 in the north-south direction, while with probability of 0.03 in east-west direction.
 
 ### Traditional phase-fixed light
+![traditional_2](https://user-images.githubusercontent.com/51109877/80047380-d919c500-853f-11ea-8614-eafc861514e3.gif)
 
 
 ### Adaptive traffic light
-![adaptive_2](https://user-images.githubusercontent.com/51109877/79993426-56651b80-84e7-11ea-9d15-152bb21ed417.gif)
+![adaptive_2](https://user-images.githubusercontent.com/51109877/80047385-db7c1f00-853f-11ea-8f48-72cafcf204db.gif)
 
+### The proposed V2I strategy
+![v2i_2](https://user-images.githubusercontent.com/51109877/80047387-de770f80-853f-11ea-8cb5-7aefc1b16781.gif)
 
 
 ## Simulation 3: The influence of traffic density
@@ -29,24 +35,34 @@ In this part, we examine the influence of traffic density on the three IM strate
 vehicle are chosen as 3 seconds, 6 seconds, 9 seconds, and 12 seconds, all with probability of 0.3.
 
 ### 3 seconds
-![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/3s/traditional-light.gif "traditional-light") 
+#### Traditional phase-fixed light
+![traditional_3s](https://user-images.githubusercontent.com/51109877/80047400-e636b400-853f-11ea-9dbd-3e9fa702d2da.gif)
 
-![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/3s/intelligent-light.gif "intelligent-light")
 
-![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/3s/intelligent-intersection.gif "intelligent-intersection")
+![adaptive_3s](https://user-images.githubusercontent.com/51109877/80047406-e9ca3b00-853f-11ea-879d-9422fb42938d.gif)
+
+#### The proposed V2I strategy
+![v2i_3s](https://user-images.githubusercontent.com/51109877/80047408-ec2c9500-853f-11ea-8e94-6fc82b9a258a.gif)
+
 
 ### 9 seconds
+#### Traditional phase-fixed light
+![traditional_9s](https://user-images.githubusercontent.com/51109877/80047416-efc01c00-853f-11ea-8f9e-94f3cae352bd.gif)
 
-![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/9s/traditional-light.gif "traditional-light") 
+#### Adaptive traffic light
+![adaptive_9s](https://user-images.githubusercontent.com/51109877/80047421-f2bb0c80-853f-11ea-9704-6f51d07e0814.gif)
 
-![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/9s/intelligent-light.gif "intelligent-light")
+#### The proposed V2I strategy
+![v2i_9s](https://user-images.githubusercontent.com/51109877/80047424-f64e9380-853f-11ea-9a3f-3318d0a4c223.gif)
 
-![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/9s/intelligent-intersection.gif "intelligent-intersection")
 
 ### 12 seconds
+#### Traditional phase-fixed light
+![traditional_12s](https://user-images.githubusercontent.com/51109877/80047426-f9e21a80-853f-11ea-9cae-77dcdd115375.gif)
 
-![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/12s/traditional-light.gif "traditional-light") 
 
-![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/12s/intelligent-light.gif "intelligent-light")
+#### Adaptive traffic light
+![adaptive_12s](https://user-images.githubusercontent.com/51109877/80047427-fcdd0b00-853f-11ea-8987-e48b1995f317.gif)
 
-![image](https://github.com/TianzhenLi/Intelligent-Intersection/blob/master/gif/simulation3/12s/intelligent-intersection.gif "intelligent-intersection")
+#### The proposed V2I strategy
+![v2i_12s](https://user-images.githubusercontent.com/51109877/80047431-ffd7fb80-853f-11ea-85b1-e375e41efa4d.gif)
