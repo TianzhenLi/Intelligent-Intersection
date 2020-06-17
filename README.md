@@ -5,6 +5,7 @@ The SUMO is used to simulate the traditional traffic lights, adaptive traffic li
 ### Dependencies
 You need dependencies below.
 * Python3
+* Plexe: Plexe added elements related to platooning to facilitate the construction of the Platooning scene. Plexe-sumo also provides a [Python API](https://github.com/michele-segata/plexe-pyapi) that can be called in Python as a module, making programming easier. Further details on Plexe can be found on the [Plexe website](http://plexe.car2x.org/).
 
 ### Install SUMO
 The system we use is Ubuntu. If you use Ubuntu, you can install it directly as follows. If not, check out the [SUMO](http://sumo.sourceforge.net/userdoc/Installing.html). 
